@@ -1,0 +1,214 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: lightblue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    margin-top: 50px;
+}
+
+.about h1 {
+    font-size: 36px;
+}
+
+.about p {
+    font-size: 18px;
+    color: lightgray;
+}
+
+/* Center the content in About Me */
+.about .team-member {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about span {
+    font-size: 24px;
+}
+
+/* Team Section */
+.team {
+    margin-top: 50px;
+}
+
+.team h2 {
+    font-size: 28px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+}
+
+.role {
+    color: lightblue;
+    font-weight: bold;
+}
+
+/* Friend Details Section */
+.friend-detail h1 {
+    font-size: 28px;
+    color: #fca311;
+}
+
+/* Ramendra Section */
+.RAMENDRA {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.RAMENDRA img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.RAMENDRA .text {
+    max-width: 500px;
+}
+
+/* DDoS Protection Section */
+.ddos-protection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.ddos-protection img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.ddos-protection .text {
+    max-width: 500px;
+}
+
+/* Section Styling */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+
+/* Heading Styling */
+h2 {
+    color: #fca311;
+    font-size: 28px;
+}
+
+/* Button Hover Effect */
+.login-btn:hover {
+    background-color: #fca311;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .team-container {
+        flex-direction: column;
+    }
+
+    .RAMENDRA {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ddos-protection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ddos-protection img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
